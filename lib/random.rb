@@ -7,6 +7,4 @@ end
 
 end
 
-r = Random.new
-puts r.primerAtaque
 
