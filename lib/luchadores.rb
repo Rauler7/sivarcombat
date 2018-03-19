@@ -1,9 +1,8 @@
+require "./lib/random.rb"
+
 class Luchadores
-	def intialize ( ganador )
-		@ganador = ganador
-	end
-	def attack( valorattack )
-		if valorattack > 0
-		return attack = true
+	def attack
+		r = Random.new
+		return r.primerAtaque
 	end
 end
