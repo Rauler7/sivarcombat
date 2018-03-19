@@ -1,7 +1,7 @@
 class Random
 
-def primerAtaque
-  ataque = rand(10)
+def atacar
+  ataque = rand(6)
   return ataque
 end
 
