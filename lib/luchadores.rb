@@ -1,3 +1,8 @@
+require "./lib/random.rb"
+
 class Luchadores
-	def attack()
+	def attack
+		r = Random.new
+		return r.primerAtaque
+	end
 end
