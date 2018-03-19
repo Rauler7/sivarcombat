@@ -1,3 +1,9 @@
 class Luchadores
-	def attack()
+	def intialize ( ganador )
+		@ganador = ganador
+	end
+	def attack( valorattack )
+		if valorattack > 0
+		return attack = true
+	end
 end
