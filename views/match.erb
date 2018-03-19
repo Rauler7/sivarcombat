@@ -3,11 +3,15 @@
 <table>
 	<thead>
 		<tr>
-			<th>Jugador 1</th>
-			<th>Jugador 2</th>
+			<th><strong><%= @nombreLuchador1 %></strong></th>
+			<th><strong><%= @nombreLuchador2 %></strong></th>
 		</tr>
 	</thead>
 	<tbody>
+		<tr>
+			<td><img src=<%= @imagenLuchador1 %> ><td>
+			<td><img src=<%= @imagenLuchador2 %> ></td>
+		</tr>
 		<tr>
 			<td><%= @jugador1 %></td>
 			<td><%= @jugador2 %></td>

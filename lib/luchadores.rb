@@ -6,7 +6,7 @@ class Luchador
 		@ataque = 80
 		@vida = 80
 		@precision = 70
-		@imagen = ""
+		@imagen = "/img/nayib.jpeg"
 		return [ @nombre, @ataque, @vida, @precision, @imagen]
  	end
 
@@ -15,7 +15,7 @@ class Luchador
 		@ataque = 30
 		@vida = 100
 		@precision = 50
-		@imagen = ""
+		@imagen = "/img/milagro.jpg"
 		return [ @nombre, @ataque, @vida, @precision, @imagen]
  	end 
 
@@ -24,7 +24,7 @@ class Luchador
 		@ataque = 100
 		@vida = 50
 		@precision = 70
-		@imagen = ""
+		@imagen = "/img/cipitio.jpeg"
 		return [ @nombre, @ataque, @vida, @precision, @imagen]
  	end
 
@@ -33,7 +33,7 @@ class Luchador
 		@ataque = 5
 		@vida = 200
 		@precision = 40
-		@imagen = ""
+		@imagen = "/img/isabel.jpg"
 		return [ @nombre, @ataque, @vida, @precision, @imagen]
  	end
 
@@ -42,7 +42,7 @@ class Luchador
 		@ataque = 3
 		@vida = 150
 		@precision = 20
-		@imagen = ""
+		@imagen = "/img/profe.jpeg"
 		return [ @nombre, @ataque, @vida, @precision, @imagen]
  	end 
 
@@ -51,7 +51,7 @@ class Luchador
 		@ataque = 70
 		@vida = 60
 		@precision = 80
-		@imagen = ""
+		@imagen = "/img/tacuazin.jpg"
 		return [ @nombre, @ataque, @vida, @precision, @imagen]
  	end 
 end
