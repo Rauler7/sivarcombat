@@ -17,6 +17,19 @@ describe "Combate" do
 		batalla.combate(1, 1).should == 0
 	end
 
+    it "Resultado jugador 1" do
+		 batalla = Batalla.new
+		batalla.mostrarResultado(1).should == "Ganador: Jugador 1"	
+	end
 
+    it "Resultado jugador 2" do
+		 batalla = Batalla.new
+		batalla.mostrarResultado(2).should == "Ganador: Jugador 2"	
+	end
+
+    it "Resultado Empate" do
+		 batalla = Batalla.new
+		batalla.mostrarResultado(0).should == "Empate"	
+	end
 
 end
