@@ -3,18 +3,25 @@
 <table>
 	<thead>
 		<tr>
-			<th><strong><%= @nombreLuchador1 %></strong></th>
-			<th><strong><%= @nombreLuchador2 %></strong></th>
+			<th><strong><%= @@nombreLuchador1 %> <%= @@contadorVictoriasJ1 %></strong></th>
+			<th><strong><%= @@nombreLuchador2 %>  <%= @@contadorVictoriasJ2 %></strong></th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td><img src=<%= @imagenLuchador1 %> ></td>
-			<td><img src=<%= @imagenLuchador2 %> ></td>
+			<td><img src=<%= @@imagenLuchador1 %> ></td>
+			<td><img src=<%= @@imagenLuchador2 %> ></td>
 		</tr>
 		<tr>
 			<td><h3 style="text-align: center; color: blue"><strong><%= @jugador1 %></strong></h3></td>
 			<td><h3 style="text-align: center; color: blue"><strong><%= @jugador2 %></strong></h3></td>
+		</tr>
+		<tr>
+			<td style="text-align: center"; colspan="2">
+				<form method="post" action="/match"> 
+					<button type="submit">Tirar nueva carta</button> 
+				</form>
+			</td>			
 		</tr>
 	</tbody>
 	<tfoot>

@@ -8,5 +8,5 @@ class Batalla
 		else
 			return 0
 		end
-	end
+	end	
 end
