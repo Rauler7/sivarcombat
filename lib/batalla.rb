@@ -9,4 +9,14 @@ class Batalla
 			return 0
 		end
 	end
+
+	def mostrarResultado ganador
+     if ganador == 1
+     return "Ganador: Jugador 1"
+	elsif ganador == 2
+	 return "Ganador: Jugador 2"
+	else
+	"Empate"	
+	end
+  end
 end
